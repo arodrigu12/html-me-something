@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*Beginning of my rule sets for index.html*/
+
 body {
 	background-color: #0b0c10;
 	color: #c5c6c7;
@@ -58,13 +60,26 @@ h1 {
 	font-size: 2.4em;
 	color: #66fcf1;
 	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+h1 span {
+	color: red;
 }
 
 h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: capitalize;
+	margin-top: 10px;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: capitalize;
 	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 p {
@@ -77,7 +92,7 @@ p {
 main, header {
 	padding: 20px;
 	text-align: left;
-	width: 1000px;
+	width: 850px;
 }
 
 ul {
@@ -93,6 +108,30 @@ a {
 	color: #45A29E;
 }
 
-p.intro {
+.intro {
 	border: 2px solid #45A29E;
+}
+
+.img {
+	margin: 10px;
+	border: 1px solid #45A29E;
+	padding: 10px;
+}
+
+.caption {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+footer p {
+	text-transform: capitalize;
 }
