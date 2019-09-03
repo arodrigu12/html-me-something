@@ -46,3 +46,53 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	background-color: #0b0c10;
+	color: #c5c6c7;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 62.5%;
+}
+
+h1 {
+	font-size: 2.4em;
+	color: #66fcf1;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	line-height: 150%;
+}
+
+main, header {
+	padding: 20px;
+	text-align: left;
+	width: 1000px;
+}
+
+ul {
+	font-size: 1.2em;
+	list-style-type: disc;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #45A29E;
+}
+
+p.intro {
+	border: 2px solid #45A29E;
+}
